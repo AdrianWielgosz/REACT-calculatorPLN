@@ -1,6 +1,6 @@
-const Button = () => {
+const Button = ({calculate}) => {
     return (
-        <button type="button" className="convert">
+        <button onClick={calculate} type="button" className="convert">
             Przelicz
         </button>
     );
